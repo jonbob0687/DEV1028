@@ -675,6 +675,468 @@
 				)
 			)
 		)
+		(symbol "Device:Q_NMOS_GSD"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_NMOS_GSD"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "N-MOSFET transistor, gate/source/drain"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Q_NMOS_GSD_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "Q_NMOS_GSD_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:Q_NPN_BEC"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_NPN_BEC"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "NPN transistor, base/emitter/collector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor NPN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Q_NPN_BEC_0_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q_NPN_BEC_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.715)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R_US"
 			(pin_numbers hide)
 			(pin_names
@@ -2116,196 +2578,6 @@
 				)
 			)
 		)
-		(symbol "Transistor_BJT:2N3904"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "2N3904"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "NPN Transistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO?92*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "2N3904_0_1"
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "2N3904_1_1"
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 5.715)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers hide)
@@ -2783,7 +3055,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 83.82) (xy 199.39 83.82)
+			(xy 176.53 83.82) (xy 199.39 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3023,7 +3295,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 78.74) (xy 163.83 78.74)
+			(xy 147.32 78.74) (xy 161.29 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3381,7 +3653,7 @@
 		(uuid "57f2cfb7-8ec1-4818-ab73-baaa0b2e7ff7")
 	)
 	(label "WallButton"
-		(at 149.86 78.74 0)
+		(at 147.32 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3864,7 +4136,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 94.9452 151.13 0)
 			(effects
 				(font
@@ -4106,132 +4378,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:2N3904")
-		(at 166.37 83.82 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4d25efe9-ef07-4992-9dd5-6c06cf76dd15")
-		(property "Reference" "Q3"
-			(at 161.29 82.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N3904"
-			(at 161.29 85.0899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 161.29 85.725 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
-			(at 166.37 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
-			(at 166.37 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4645e18f-e5ee-4971-bcc0-a19f8cbff5b0")
-		)
-		(pin "2"
-			(uuid "96d9e8e1-9f26-401a-9b66-9d26735b7cc2")
-		)
-		(pin "3"
-			(uuid "3c0131e9-6b32-41b3-bd44-a2b66c62797a")
-		)
-		(instances
-			(project "200280"
-				(path "/3db950b7-90b9-4a08-ba43-c2ed66fd5b42"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:2N3904")
-		(at 58.42 154.94 0)
+		(lib_id "Device:R_US")
+		(at 172.72 83.82 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "55e184f5-601d-43e1-a5a8-e0fbfee17109")
-		(property "Reference" "Q1"
-			(at 63.5 153.6699 0)
+		(uuid "54b8a770-ffff-4c89-a2be-f27c63f6275b")
+		(property "Reference" "R7"
+			(at 172.72 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "2N3904"
-			(at 63.5 156.2099 0)
+		(property "Value" "120R"
+			(at 172.72 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 63.5 156.845 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
-			(at 58.42 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
-			(at 58.42 154.94 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 172.466 84.836 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4239,19 +4412,34 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "593d4e86-d227-4ce0-9d25-d0da25a3a527")
+		(property "Datasheet" "~"
+			(at 172.72 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 172.72 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "e562e23b-7227-41cb-b72b-65fd5cf88e3e")
+			(uuid "17bd885b-13cb-4896-92df-0eba9721de4f")
 		)
-		(pin "3"
-			(uuid "e97686a9-500f-425f-b6da-492a436e4dd3")
+		(pin "1"
+			(uuid "8a0394d5-48b3-4781-9a75-29cc361e9148")
 		)
 		(instances
 			(project "200280"
 				(path "/3db950b7-90b9-4a08-ba43-c2ed66fd5b42"
-					(reference "Q1")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -4524,6 +4712,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Q_NPN_BEC")
+		(at 58.42 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c84a92c-2780-4ca6-8827-747898a1b35d")
+		(property "Reference" "Q4"
+			(at 63.5 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT3904"
+			(at 63.5 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 63.5 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NPN transistor, base/emitter/collector"
+			(at 58.42 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "cc043e58-5916-4ed7-b151-813693596c64")
+		)
+		(pin "2"
+			(uuid "5ff13e48-eeaa-431b-88d3-13aa587d3940")
+		)
+		(pin "1"
+			(uuid "4ca81c1e-f49e-44b5-9df4-830edcf00a8f")
+		)
+		(instances
+			(project "200280"
+				(path "/3db950b7-90b9-4a08-ba43-c2ed66fd5b42"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 40.64 147.32 0)
 		(mirror x)
@@ -4551,7 +4812,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 41.656 147.066 90)
 			(effects
 				(font
@@ -4595,7 +4856,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 163.83 88.9 0)
+		(at 161.29 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4604,7 +4865,7 @@
 		(fields_autoplaced yes)
 		(uuid "798908b3-7172-4c3b-b427-fa1bbed41a74")
 		(property "Reference" "#PWR016"
-			(at 163.83 95.25 0)
+			(at 161.29 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4613,7 +4874,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 163.83 93.98 0)
+			(at 161.29 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4621,7 +4882,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 88.9 0)
+			(at 161.29 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4630,7 +4891,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 88.9 0)
+			(at 161.29 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4639,7 +4900,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 163.83 88.9 0)
+			(at 161.29 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4998,6 +5259,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Q_NMOS_GSD")
+		(at 163.83 83.82 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad9e3012-173c-4ed6-b10b-927c8abdf043")
+		(property "Reference" "Q2"
+			(at 157.48 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SI2304BDS-T1-GE3"
+			(at 157.48 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 158.75 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, gate/source/drain"
+			(at 163.83 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e748ac1c-b362-494e-b9c1-231ab1a69dad")
+		)
+		(pin "3"
+			(uuid "a57da24b-9392-4766-9dfb-c698b02272d4")
+		)
+		(pin "1"
+			(uuid "306da125-fc59-4943-94b3-34a4f8dc1888")
+		)
+		(instances
+			(project "200280"
+				(path "/3db950b7-90b9-4a08-ba43-c2ed66fd5b42"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 93.98 135.89 0)
 		(mirror x)
@@ -5025,7 +5359,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 94.996 135.636 90)
 			(effects
 				(font
@@ -5092,7 +5426,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MC_1,5_10-GF-3.5_1x10_P3.50mm_Horizontal_ThreadedFlange_MountHole"
+		(property "Footprint" "GM_Connector_PhoenixContact:phoenix_contact_1984691"
 			(at 19.05 62.23 0)
 			(effects
 				(font
@@ -5184,7 +5518,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 66.294 146.304 90)
 			(effects
 				(font
@@ -5466,7 +5800,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 101.346 143.256 90)
 			(effects
 				(font
@@ -5687,7 +6021,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 61.976 140.716 90)
 			(effects
 				(font
@@ -5955,7 +6289,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 41.656 161.036 90)
 			(effects
 				(font
@@ -5992,82 +6326,6 @@
 			(project "200280"
 				(path "/3db950b7-90b9-4a08-ba43-c2ed66fd5b42"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:2N3904")
-		(at 78.74 147.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f1575b93-8426-439a-b3d3-fc253b2766bf")
-		(property "Reference" "Q2"
-			(at 83.82 146.0499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N3904"
-			(at 83.82 148.5899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 83.82 149.225 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
-			(at 78.74 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
-			(at 78.74 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "de8f78b7-5d4a-4df1-b4b6-06e940de5dcd")
-		)
-		(pin "2"
-			(uuid "89deb50f-9410-437d-a37a-253d183279f0")
-		)
-		(pin "3"
-			(uuid "0d274465-821d-4c0d-a0e2-cc7843e7655e")
-		)
-		(instances
-			(project "200280"
-				(path "/3db950b7-90b9-4a08-ba43-c2ed66fd5b42"
-					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -6134,6 +6392,78 @@
 			(project "200280"
 				(path "/3db950b7-90b9-4a08-ba43-c2ed66fd5b42"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_NPN_BEC")
+		(at 78.74 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f462b9d5-68c3-402d-8a0b-fd0681e0b4a7")
+		(property "Reference" "Q1"
+			(at 82.804 149.606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT3904"
+			(at 82.804 151.892 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 83.82 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NPN transistor, base/emitter/collector"
+			(at 78.74 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "261eb3f1-ae8b-48f8-9c49-900892a6bff0")
+		)
+		(pin "2"
+			(uuid "7c08faf6-d28c-4866-a814-25c5ffacecc1")
+		)
+		(pin "1"
+			(uuid "095e4db9-c96a-4fea-844f-a17e40fd14fc")
+		)
+		(instances
+			(project "200280"
+				(path "/3db950b7-90b9-4a08-ba43-c2ed66fd5b42"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
