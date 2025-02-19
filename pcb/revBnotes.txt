@@ -1,0 +1,2 @@
+1. mosfet - resistor to shunt charge on gate
+2. pullup or pulldown resistors to keep bus translator at known levels
