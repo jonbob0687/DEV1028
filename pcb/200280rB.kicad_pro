@@ -506,7 +506,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "export/200280rA/",
+      "plot": "export/200280rB/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -517,7 +517,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "export\\BillOfMaterials.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -596,7 +596,7 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",
